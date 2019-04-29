@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import TitleScreen from './SectionComponents/TitleScreen'
 import About from './SectionComponents/About'
 

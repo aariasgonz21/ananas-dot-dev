@@ -1,9 +1,10 @@
 import React from 'react';
+import '../stylesheets/home.scss'
 
 function TitleScreen() {
   return (
-      <div>
-        <h1>hi im ana</h1>
+      <div className="home">
+        <h1 className="temp1">hi im ana</h1>
       </div>
     );
 
