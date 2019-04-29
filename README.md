@@ -1,5 +1,5 @@
 # Ananas.dev
-## my personal site
+my personal site
 
 ## Made with
 - React
