@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="6px" viewBox="0 0 7 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-231.000000, -235.000000)" fill="#FFED09">
+            <g id="Star" transform="translate(230.000000, 234.000000)">
+                <polygon transform="translate(4.664315, 4.734666) scale(1, -1) rotate(35.000000) translate(-4.664315, -4.734666) " points="4.66431503 6.52114069 2.90095927 7.44819167 3.23773025 5.48466618 1.81114548 4.0940897 3.78263715 3.8076152 4.66431503 2.02114069 5.54599291 3.8076152 7.51748458 4.0940897 6.0908998 5.48466618 6.42767078 7.44819167"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

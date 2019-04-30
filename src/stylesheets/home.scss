@@ -1,13 +1,54 @@
+/*** FONTS ****/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('GothamLight.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Gotham Book';
+  src: url('GothamBook.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Gotham Bold';
+  src: url('GothamBold.ttf') format('truetype');
+}
+
+/**** VARIABLES ****/
+$info-phone: "only screen and (max-width: 430px)";
 $width: 100%;
 $height: 100vh;
+$head-font: 'Gotham Light', serif;
+$text-font: 'Source Sans Pro', sans-serif;
 
-.home{
+.home {
   background: {
     image: url('../images/background-img.png');
     repeat: no-repeat;
     size: cover;
-    position: center;
+    position: 40% 40%;
   }
+  font: {
+    family: $head-font;
+    size: 2.3vh;
+  }
+  color: white;
+  line-height: 80%;
   width: $width;
   min-height: $height;
+}
+.star {
+  height:1vh;
+}
+.name {
+  margin: 30vh 0 0 5vh;
+}
+
+@media #{$info-phone} {
+  .home {
+    font-size: 1.5vh;
+    background-position: center;
+  }
+  .name {
+    margin:28vh 0 0 2vh;
+  }
 }
