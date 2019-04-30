@@ -11,9 +11,12 @@ function TitleScreen() {
             <img className="star" src={star} alt="star"/>
           </h1>
         </div>
+        <div className="title">
+          <h3>afro-latinx frontend engineer</h3>
+          <h3></h3>
+        </div>
       </div>
     );
-
 }
 
 export default TitleScreen;
