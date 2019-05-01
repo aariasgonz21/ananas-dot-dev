@@ -7,7 +7,6 @@ function About() {
         <h1 className="temp1">about mua</h1>
       </div>
     );
-
 }
 
 export default About;
