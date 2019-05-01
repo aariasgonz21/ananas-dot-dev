@@ -13,7 +13,6 @@ function TitleScreen() {
         </div>
         <div className="title">
           <h3>afro-latinx frontend engineer</h3>
-          <h3></h3>
         </div>
       </div>
     );
