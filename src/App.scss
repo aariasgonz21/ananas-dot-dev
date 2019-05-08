@@ -1,12 +1,12 @@
+$width: 100%;
+$height: 100vh;
+
 .App{
   display: flex;
   flex-direction: column;
+
 }
 
-.temp1{
-  text-align: center;
-}
-
-@-ms-viewport{
-  width: device-width;
+h2{
+  text-align: left;
 }

@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.scss';
-import TitleScreen from './SectionComponents/TitleScreen'
+import Home from './SectionComponents/Home'
 import About from './SectionComponents/About'
+import Mission from './SectionComponents/Mission'
+import Projects from './SectionComponents/Projects'
+import Music from './SectionComponents/Music'
+import Contact from './SectionComponents/Contact'
 
 function App() {
   return (
     <div className="App">
-      <TitleScreen />
+      <Home />
       <About />
       <Mission />
       <Projects />

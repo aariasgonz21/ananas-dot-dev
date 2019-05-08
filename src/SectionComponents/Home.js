@@ -1,8 +1,9 @@
 import React from 'react';
 import '../stylesheets/home.scss'
 import star from '../images/star.svg'
+import Nav from '../PieceComponents/Nav'
 
-function TitleScreen() {
+function Home() {
   return (
       <div className="home">
         <div className="name">
@@ -19,4 +20,4 @@ function TitleScreen() {
     );
 }
 
-export default TitleScreen;
+export default Home;
