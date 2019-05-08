@@ -8,6 +8,10 @@ function App() {
     <div className="App">
       <TitleScreen />
       <About />
+      <Mission />
+      <Projects />
+      <Music />
+      <Contact />
     </div>
   );
 }

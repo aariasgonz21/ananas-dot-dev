@@ -14,6 +14,7 @@ function TitleScreen() {
         <div className="title">
           <h3>afro-latinx frontend engineer</h3>
         </div>
+        <Nav />
       </div>
     );
 }
