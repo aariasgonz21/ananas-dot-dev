@@ -2,6 +2,7 @@ import React from 'react';
 import '../stylesheets/home.scss'
 import star from '../images/star.svg'
 import Nav from '../PieceComponents/Nav'
+import Menu from '../PieceComponents/Menu'
 
 function Home() {
   return (

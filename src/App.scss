@@ -16,5 +16,7 @@ h2{
 }
 
 .menu{
-  
+  @extend .nav;
+  bottom: 6vh;
+  //display: none;
 }

@@ -10,12 +10,12 @@ class Nav extends Component {
     this.setState({
       clicked: !this.state.clicked
     })
-    console.log("is this nav clicked? " + this.state.clicked)
   }
 
   render() {
     return (
       <div className="nav">
+         {!this.state.clicked && <Menu />}
          <h2 onClick={this.clickHandler}>nav</h2>
       </div>
     );
