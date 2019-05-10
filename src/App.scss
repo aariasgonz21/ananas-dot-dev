@@ -4,9 +4,17 @@ $height: 100vh;
 .App{
   display: flex;
   flex-direction: column;
-
 }
 
 h2{
   text-align: left;
+}
+
+.nav{
+  position: fixed;
+  bottom: 0;
+}
+
+.menu{
+  
 }
