@@ -5,7 +5,7 @@ class Music extends Component {
 
   render() {
     return (
-      <div className="music">
+      <div id="music">
         <h2>The Jams</h2>
       </div>
     );

@@ -5,7 +5,7 @@ class Mission extends Component {
 
   render() {
     return (
-      <div className="mission">
+      <div id="mission">
         <h2>Mission</h2>
       </div>
     );

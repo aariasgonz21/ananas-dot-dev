@@ -6,7 +6,7 @@ import Menu from '../PieceComponents/Menu'
 
 function Home() {
   return (
-      <div className="home">
+      <div id="home">
         <div className="name">
           <h1>Ana</h1>
           <h1>Arias-Gonzalez

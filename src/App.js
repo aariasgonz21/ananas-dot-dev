@@ -6,16 +6,17 @@ import Mission from './SectionComponents/Mission'
 import Projects from './SectionComponents/Projects'
 import Music from './SectionComponents/Music'
 import Contact from './SectionComponents/Contact'
+//import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Mission />
-      <Projects />
-      <Music />
-      <Contact />
+      <Home/>
+      <About/>
+      <Mission/>
+      <Projects/>
+      <Music/>
+      <Contact/>
     </div>
   );
 }
