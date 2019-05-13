@@ -13,7 +13,7 @@ class Menu extends Component {
         <ul>
           <li><a href="#about">about</a></li>
           <li><a href="#mission">mission</a></li>
-          <li><a href="#projects">projects</a></li>
+          <li><a href="#project">projects</a></li>
           <li><a href="#music">the jams</a></li>
           <li><a href="#contact">contact</a></li>
           <li><a href="#home">back to the top</a></li>
