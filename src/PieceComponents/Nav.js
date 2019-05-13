@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import navbar from '../images/navbar.svg'
 import Menu from './Menu'
 
 class Nav extends Component {
@@ -16,7 +17,9 @@ class Nav extends Component {
     return (
       <div className="nav">
          {!this.state.clicked && <Menu />}
-         <h2 onClick={this.clickHandler}>nav</h2>
+         <img src={navbar} class="top"
+         onClick={this.clickHandler}
+         alt="navbar"/>
       </div>
     );
   }

@@ -13,6 +13,11 @@
   src: url('GothamBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('Gotham-Black.otf') format('opentype');
+}
+
 /**** VARIABLES ****/
 $info-phone: "only screen and (max-width: 430px)";
 $info-tablet: "(min-width: 431px) and (max-width: 1024px)";

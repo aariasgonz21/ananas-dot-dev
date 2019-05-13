@@ -7,19 +7,17 @@ $text-font: 'Source Sans Pro', sans-serif;
   flex-direction: column;
 }
 
-h2{
-  text-align: left;
-}
-
 .nav{
   position: fixed;
   bottom: 0;
   color:black;
+  margin:0 0 3vh 3vh;
+  .top {
+    width:50%;
+  }
 }
 
 .menu{
-  @extend .nav;
-  bottom: 6vh;
   a{
     text-decoration: none;
     color: black;
@@ -27,8 +25,9 @@ h2{
       family: $text-font;
       size: 3vh;
     }
-    line-height: 2.3vh;
   }
-  //display: none;
-
+  position: fixed;
+  bottom: 6vh;
+  line-height: 2.3vh;
+  margin-left: -5vh;
 }
