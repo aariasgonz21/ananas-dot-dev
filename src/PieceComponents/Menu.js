@@ -1,26 +1,29 @@
 import React, { Component }  from 'react';
+import {useSpring, animated} from 'react-spring'
 import About from '../SectionComponents/About'
 import Mission from '../SectionComponents/Mission'
 import Projects from '../SectionComponents/Projects'
 import Music from '../SectionComponents/Music'
 import Contact from '../SectionComponents/Contact'
 import Home from '../SectionComponents/Home'
+import { Link, animateScroll as scroll } from "react-scroll";
 
-class Menu extends Component {
-  render(){
+function Menu () {
+  const props = useSpring({opacity: 1, from: {opacity: 0}})
     return (
+      <animated.div style={props}>
       <div className="menu">
         <ul>
-          <li><a href="#about">about</a></li>
-          <li><a href="#mission">mission</a></li>
-          <li><a href="#project">projects</a></li>
-          <li><a href="#music">the jams</a></li>
-          <li><a href="#contact">contact</a></li>
-          <li><a href="#home">back to the top</a></li>
+          <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration= {1000}>about</Link></li>
+          <li><Link activeClass="active" to="mission" spy={true} smooth={true} offset={0} duration= {1000}>mission</Link></li>
+          <li><Link activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration= {1000}>projects</Link></li>
+          <li><Link activeClass="active" to="music" spy={true} smooth={true} offset={0} duration= {1000}>the jams</Link></li>
+          <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration= {1000}>contact</Link></li>
+          <li><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration= {1000}>back to top</Link></li>
         </ul>
       </div>
+      </animated.div>
     );
-  }
 }
 
 export default Menu;

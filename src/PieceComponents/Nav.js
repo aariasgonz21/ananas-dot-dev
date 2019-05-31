@@ -17,7 +17,7 @@ class Nav extends Component {
     return (
       <div className="nav">
          {!this.state.clicked && <Menu />}
-         <img src={navbar} class="top"
+         <img src={navbar} className="top"
          onClick={this.clickHandler}
          alt="navbar"/>
       </div>
