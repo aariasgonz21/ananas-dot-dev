@@ -4,7 +4,7 @@ import '../stylesheets/about.scss'
 function About() {
   return (
       <div id="about">
-        <h2 className="temp1">about mua</h2>
+        <h2 className="about-title">Who is She?</h2>
       </div>
     );
 }
