@@ -2,9 +2,6 @@ import React from 'react';
 import '../stylesheets/about.scss'
 import aboutimg from '../images/about.svg'
 import star from '../images/star.svg'
-// import dr from '../images/dominican-republic.svg'
-// import laptop from '../images/laptop.svg'
-// import fist from '../images/fist.svg'
 
 function About() {
   return (

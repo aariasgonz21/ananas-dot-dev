@@ -1,29 +1,13 @@
 /*** FONTS ****/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@font-face {
-  font-family: 'Gotham Light';
-  src: url('GothamLight.ttf') format('truetype');
-}
-@font-face{
-  font-family: 'Gotham Book';
-  src: url('GothamBook.ttf') format('truetype');
-}
-@font-face{
-  font-family: 'Gotham Bold';
-  src: url('GothamBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Gotham Black';
-  src: url('Gotham-Black.otf') format('opentype');
-}
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300&display=swap');
 
 /**** VARIABLES ****/
 $info-phone: "only screen and (max-width: 430px)";
 $info-tablet: "(min-width: 431px) and (max-width: 1024px)";
 $width: 100%;
 $height: 100vh;
-$head-font: 'Gotham Light', serif;
+$head-font: 'Gothic A1', serif;
 $text-font: 'Source Sans Pro', sans-serif;
 $moss-green: #B2D39F;
 
@@ -35,10 +19,7 @@ $moss-green: #B2D39F;
     size: cover;
     position: 40% 40%;
   }
-  font: {
-    family: $head-font;
-    size: 2.5vh;
-  }
+  font-size: 3vh;
   color: white;
   line-height: 80%;
   width: $width;
@@ -51,19 +32,27 @@ $moss-green: #B2D39F;
   margin: 30vh 0 0 5vh;
 }
 
+h1{
+  font: {
+    family: $head-font;
+    weight: 300;
+  }
+}
+
 .title{
   line-height: 40%;
   margin: 1vh 0 0 5vh;
+  font-size: 2vh;
   color: $moss-green;
 }
 
 /*** MEDIA QUERIES ***/
 @media #{$info-phone} {
   .home {
-    font-size: 1.5vh;
     background-position: center;
   }
   .name {
+    font-size: 2vh;
     margin:28vh 0 0 2vh;
   }
 

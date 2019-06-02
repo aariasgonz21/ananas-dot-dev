@@ -3,6 +3,7 @@ import '../stylesheets/home.scss'
 import star from '../images/star.svg'
 import Nav from '../PieceComponents/Nav'
 import Menu from '../PieceComponents/Menu'
+import 'normalize.css';
 
 function Home() {
   return (

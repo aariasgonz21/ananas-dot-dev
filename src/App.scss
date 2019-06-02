@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400&display=swap');
+
 $width: 100%;
 $height: 100vh;
-$text-font: 'Source Sans Pro', sans-serif;
+$head-font: 'Gothic A1', sans-serif;
 
 .App{
   display: flex;
@@ -22,12 +24,12 @@ $text-font: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: black;
     font: {
-      family: $text-font;
-      size: 3vh;
+      family: $head-font;
+      size: 2.5vh;
     }
   }
   position: fixed;
   bottom: 6vh;
-  line-height: 2.3vh;
+  line-height: 2.5vh;
   margin-left: -5vh;
 }

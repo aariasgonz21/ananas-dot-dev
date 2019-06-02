@@ -6,6 +6,7 @@ import Mission from './SectionComponents/Mission'
 import Projects from './SectionComponents/Projects'
 import Music from './SectionComponents/Music'
 import Contact from './SectionComponents/Contact'
+import 'normalize.css';
 //import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
