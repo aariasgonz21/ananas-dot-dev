@@ -1,7 +1,73 @@
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('GothamLight.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Gotham Book';
+  src: url('GothamBook.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Gotham Bold';
+  src: url('GothamBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('Gotham-Black.otf') format('opentype');
+}
+
 $width: 100%;
 $height: 100vh;
+$info-phone: "only screen and (max-width: 430px)";
+$info-tablet: "(min-width: 431px) and (max-width: 1024px)";
+$head-font: 'Gotham Book', serif;
+$text-font: 'Source Sans Pro', sans-serif;
+$goldenrod: #FDEB4E;
 
 #about{
   width: $width;
   min-height: $height;
+}
+
+.about-bg{
+  //background-color: $goldenrod;
+}
+
+@media #{$info-phone} {
+  #about{
+    //background-color: $goldenrod;
+  }
+  .about-img{
+    width: 85%;
+    margin-left: 2vh;
+  }
+  .about-bg{
+    padding:3vh;
+  }
+  .about-title{
+    text-align: left;
+    margin: 12vh 5vh 1vh 5vh;
+    font-family: $head-font;
+    font-size: 2em;
+  }
+
+  .about-list{
+    font-family: $text-font;
+    margin: 2vh -3vh 2vh 10vh;
+    padding:2vh 1vh 3.5vh 4vh;
+    font-size: 1.1em;
+    text-align: left;
+    background-color:$goldenrod;
+  }
+
+  .about-li-item{
+    list-style-type: none;
+    line-height: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  .laptop, .fist{
+    width: 10%;
+
+  }
 }
