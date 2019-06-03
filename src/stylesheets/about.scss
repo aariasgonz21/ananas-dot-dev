@@ -15,26 +15,59 @@ $goldenrod: #FDEB4E;
   min-height: $height;
 }
 
+.about-title{
+  font:{
+    family: $head-font;
+    weight: 600;
+    size: 4em;
+  }
+  text-align: right;
+  margin-right: 2vh;
+}
+
+.about-img{
+  margin-left: 20%;
+  z-index: 1;
+  min-width: 35%
+}
+
+.about-list{
+  background-color: $goldenrod;
+  float: right;
+  list-style-type: none;
+  z-index: -1;
+  font:{
+    size: 2.2em;
+  }
+  margin: -40% 0 0 30%;
+  padding: 4% 3vh 2% 60vh;
+}
+
+.about-li-item{
+  line-height: 5vh;
+  margin-bottom: 5vh;
+  text-align: right;
+}
+
+/*** Media Queries ***/
 @media #{$info-phone} {
   .about-img{
     width: 85%;
     margin-left: 2vh;
   }
-  .about-bg{
-    padding:3vh;
-  }
+
   .about-title{
     text-align: left;
     margin: 4vh 5vh 1vh 5vh;
     font-family: $head-font;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 3em;
   }
   .about-list{
     font-family: $text-font;
     margin: 2vh -3vh 2vh 10vh;
-    padding:2vh 1vh 3.5vh 4vh;
-    font-size: 1.1em;
+    padding: 2vh 4vh 3.5vh 4vh;
+    font-size: 1.3em;
     text-align: left;
     background-color:$goldenrod;
   }
