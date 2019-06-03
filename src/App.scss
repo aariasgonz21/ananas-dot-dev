@@ -13,7 +13,6 @@ $info-lg-desktop: "only screen and (min-width: 1600px)";
 }
 
 .nav{
-  width: 8%;
   position: fixed;
   bottom: 0;
   color:black;
@@ -44,6 +43,7 @@ $info-lg-desktop: "only screen and (min-width: 1600px)";
   .menu{
     margin-left: -6.5vh;
   }
+  .nav{}
 }
 
 @media #{$info-tablet}{
