@@ -6,13 +6,11 @@ class Nav extends Component {
     state = {
       clicked:true
     }
-
   clickHandler = () => {
     this.setState({
       clicked: !this.state.clicked
     })
   }
-
   render() {
     return (
       <div className="nav">
@@ -23,7 +21,5 @@ class Nav extends Component {
       </div>
     );
   }
-
 }
-
 export default Nav;

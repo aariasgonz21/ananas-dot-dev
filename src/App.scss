@@ -43,7 +43,9 @@ $info-lg-desktop: "only screen and (min-width: 1600px)";
   .menu{
     margin-left: -6.5vh;
   }
-  .nav{}
+  .top{
+    margin-top: -50%;
+  }
 }
 
 @media #{$info-tablet}{
