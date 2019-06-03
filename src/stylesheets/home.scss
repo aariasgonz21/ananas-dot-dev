@@ -5,7 +5,7 @@
 /**** VARIABLES ****/
 $info-phone: "only screen and (max-width: 430px)";
 $info-tablet: "only screen and (min-width: 431px) and (max-width: 1025px)";
-$width: 105%;
+$width: -webkit-fill-available;
 $height: 100vh;
 $head-font: 'Gothic A1', serif;
 $text-font: 'Source Sans Pro', sans-serif;
@@ -48,13 +48,14 @@ h1{
 
 /*** MEDIA QUERIES ***/
 @media #{$info-phone} {
-  #home {
+  .home {
     background-position: center;
   }
   .name {
     font-size: 2vh;
     margin:28vh 0 0 2vh;
   }
+
   .title{
     margin: 2.5vh 0 0 2.3vh;
     font-size: 2vh;
