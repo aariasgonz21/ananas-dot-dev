@@ -11,7 +11,7 @@ $text-font: 'Source Sans Pro', sans-serif;
 $goldenrod: #FDEB4E;
 
 #about{
-  width: $width;
+  min-width: $width;
   min-height: $height;
 }
 

@@ -3,6 +3,9 @@
 $width: 100%;
 $height: 100vh;
 $head-font: 'Gothic A1', sans-serif;
+$info-phone: "only screen and (max-width: 430px)";
+$info-tablet: "only screen and (min-width: 431px) and (max-width: 1024px)";
+$info-lg-desktop: "only screen and (min-width: 1600px)";
 
 .App{
   display: flex;
@@ -10,18 +13,21 @@ $head-font: 'Gothic A1', sans-serif;
 }
 
 .nav{
+  width: 8%;
   position: fixed;
   bottom: 0;
   color:black;
-  margin:0 0 3vh 1vh;
+  margin:0 0 3vh 3vh;
   .top {
     width:50%;
   }
 }
 
 .menu{
+  li{
+    list-style-type: none;
+  }
   a{
-    text-decoration: none;
     color: black;
     font: {
       family: $head-font;
@@ -32,4 +38,26 @@ $head-font: 'Gothic A1', sans-serif;
   bottom: 6vh;
   line-height: 2.5vh;
   margin-left: -5vh;
+}
+
+@media #{$info-phone}{
+  .menu{
+    margin-left: -6.5vh;
+  }
+}
+
+@media #{$info-tablet}{
+  .nav{
+    width: 14%;
+  }
+  .menu{
+    a{
+      margin-left: 2vh;
+    }
+  }
+}
+@media #{$info-lg-desktop}{
+  .nav{
+    width: 8%;
+  }
 }
