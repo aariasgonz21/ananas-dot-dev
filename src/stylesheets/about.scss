@@ -107,7 +107,7 @@ $goldenrod: #FDEB4E;
 
 @media only screen and (min-width:1100px) and (max-width:1204px){
   .about-img{
-    width: 45%;
+    width: 40%;
     margin-left: 16%;
   }
   .about-list{
@@ -119,6 +119,22 @@ $goldenrod: #FDEB4E;
     margin-left: -50%;
   }
 }
+
+@media only screen and (min-width:1025px) and (max-width:1099px){
+  .about-img{
+    width: 35%;
+    margin-left: 16%;
+  }
+  .about-list{
+    margin-top: -40%;
+    margin-bottom: 70%;
+    font-size: 1.9em;
+  }
+  .about-li-item{
+    margin-left: -50%;
+  }
+}
+
 
 @media #{$info-tablet}{
   .about-title{
