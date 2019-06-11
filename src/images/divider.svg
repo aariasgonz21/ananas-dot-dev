@@ -3,8 +3,8 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="color-pallate" transform="translate(-102.000000, -490.000000)">
             <g id="Group-3" transform="translate(103.000000, 488.000000)">
-                <path d="M0.5,7.5 L326.5,7.5" id="Line-3" stroke="#C28080" stroke-width="2" stroke-linecap="square"></path>
-                <path d="M362.5,7.5 L688.5,7.5" id="Line-3" stroke="#C28080" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M0.5,7.5 L326.5,7.5" id="Line-3" stroke="#D3ADAD" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M362.5,7.5 L688.5,7.5" id="Line-3" stroke="#D3ADAD" stroke-width="2" stroke-linecap="square"></path>
                 <g id="Star" transform="translate(337.000000, 0.000000)" fill="#FFED09">
                     <polygon transform="translate(8.292116, 8.417184) scale(1, -1) rotate(35.000000) translate(-8.292116, -8.417184) " points="8.2921156 11.593139 5.15726093 13.2412296 5.75596489 9.75051765 3.21981418 7.2783817 6.72468827 6.76909368 8.2921156 3.593139 9.85954294 6.76909368 13.364417 7.2783817 10.8282663 9.75051765 11.4269703 13.2412296"></polygon>
                 </g>
