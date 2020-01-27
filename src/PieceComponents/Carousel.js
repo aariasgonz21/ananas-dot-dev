@@ -52,14 +52,6 @@ const projects = {
     }
 };
 
-function shallowIterator (projects) {
-    for (const key in projects) {
-      console.log(projects[key].name);
-    }
-  }
-
-  shallowIterator(projects);
-
 let carouselItems = (projects) => {
     let arr = [];
     for (const key in projects) {
@@ -71,10 +63,6 @@ let carouselItems = (projects) => {
     }
   return(arr);
 };
-
-// Object.keys(projects).map((name, i)=> (
-
-// ));
 
 export default class AutoPlayCarousel extends React.Component {
   state = {
