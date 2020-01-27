@@ -55,10 +55,10 @@ const projects = {
 let carouselItems = (projects) => {
     let arr = [];
     for (const key in projects) {
-    arr.push(
-        <SlideItem>
-            <a href={projects[key].link}>{projects[key].name}</a>
-        </SlideItem>
+        arr.push(
+            <SlideItem>
+                <a href={projects[key].link}>{projects[key].name}</a>
+            </SlideItem>
         )
     }
   return(arr);
