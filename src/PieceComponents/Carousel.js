@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 
 const SlideItem = styled.div`
   height: 30vh;
-  background: #eee;
+  background: ${props => props.img};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@ let carouselItems = (projects) => {
     let arr = [];
     for (const key in projects) {
         arr.push(
-            <SlideItem>
+            <SlideItem img={projects[key].img}>
                 <a href={projects[key].link}>{projects[key].name}</a>
             </SlideItem>
         )
