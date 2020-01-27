@@ -87,7 +87,7 @@ export default class AutoPlayCarousel extends React.Component {
       <Wrapper>
         <ItemsCarousel
           gutter={6}
-          numberOfCards={noOfCards}
+          numberOfCards={window.innerWidth < 775 ? 1 : noOfCards}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
           rightChevron={'>'}
