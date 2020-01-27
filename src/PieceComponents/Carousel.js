@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import ItemsCarousel from 'react-items-carousel';
+//import chatrandom from '../images/chatrandom.png'
 
 const noOfItems = 6;
 const noOfCards = 3;
 const noOfCardsMobile = 1;
-const autoPlayDelay = 2000;
+const autoPlayDelay = 3000;
 const chevronWidth = 40;
 
 const Wrapper = styled.div`
