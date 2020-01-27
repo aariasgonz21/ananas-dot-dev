@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheets/about.scss'
 import aboutimg from '../images/about.svg'
-import star from '../images/star.svg'
 
 function About() {
   return (
