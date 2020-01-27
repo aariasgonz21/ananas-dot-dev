@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 
 const SlideItem = styled.div`
   height: 30vh;
-  background: #EEE;
+  background: #eee;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,12 +24,57 @@ const SlideItem = styled.div`
   font-weight: bold;
   margin-top: 7vh;
 `;
-const projects = ["SaveSpace", "Mahalo", "Eau De Hash Gang", "ChatRandom", "Daft Punk Keyboard TBA"];
-const carouselItems = projects.map(name => (
-  <SlideItem>
-    {name}
-  </SlideItem>
-));
+const projects = {
+    "p1":{
+        "name":"SaveSpace",
+        "img":"#aaf0d1",
+        "link":"https://github.com/aariasgonz21/SaveSpace-frontend",
+    },
+    "p2":{
+        "name":"Mahalo",
+        "img":"#aaf0d1",
+        "link":"https://github.com/mwestervelt/mahalo-2",
+    },
+    "p3":{
+        "name":"Eau De Hash Gang",
+        "img":"#aaf0d1",
+        "link":"https://github.com/aariasgonz21/Eau-de-Hash-Gang-frontend",
+    }, 
+    "p4":{
+        "name":"ChatRandom",
+        "img":"#aaf0d1",
+        "link":"https://github.com/aariasgonz21/chatrandom",
+    }, 
+    "p5":{
+        "name":"Daft Punk Keyboard TBA",
+        "img":"#aaf0d1",
+        "link":"#",
+    }
+};
+
+function shallowIterator (projects) {
+    for (const key in projects) {
+      console.log(projects[key].name);
+    }
+  }
+
+  shallowIterator(projects);
+
+let carouselItems = (projects) => {
+    let arr = [];
+    for (const key in projects) {
+    arr.push(
+        <SlideItem>
+            <a href={projects[key].link}>{projects[key].name}</a>
+        </SlideItem>
+        )
+    }
+  return(arr);
+};
+
+// Object.keys(projects).map((name, i)=> (
+
+// ));
 
 export default class AutoPlayCarousel extends React.Component {
   state = {
@@ -62,7 +107,7 @@ export default class AutoPlayCarousel extends React.Component {
           leftChevron={'<'}
           chevronWidth={chevronWidth}
           outsideChevron
-          children={carouselItems}
+          children={carouselItems(projects)}
         />
       </Wrapper>
     );
