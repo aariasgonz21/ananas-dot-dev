@@ -4,6 +4,7 @@ import ItemsCarousel from 'react-items-carousel';
 
 const noOfItems = 6;
 const noOfCards = 3;
+const noOfCardsMobile = 1;
 const autoPlayDelay = 2000;
 const chevronWidth = 40;
 
@@ -87,7 +88,7 @@ export default class AutoPlayCarousel extends React.Component {
       <Wrapper>
         <ItemsCarousel
           gutter={6}
-          numberOfCards={window.innerWidth < 775 ? 1 : noOfCards}
+          numberOfCards={window.innerWidth < 775 ? noOfCardsMobile : noOfCards}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
           rightChevron={'>'}
