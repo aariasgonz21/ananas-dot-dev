@@ -16,15 +16,18 @@ const Wrapper = styled.div`
 `;
 
 const SlideItem = styled.div`
-  height: 30vh;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%; 
   background: ${props => props.img};
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  a:text-decoration: none;
   font-weight: bold;
   margin-top: 7vh;
+  margin-left: 9vh;
 `;
 const projects = {
     "p1":{
