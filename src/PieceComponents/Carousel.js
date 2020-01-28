@@ -22,6 +22,7 @@ const SlideItem = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 20px;
+  a:text-decoration: none;
   font-weight: bold;
   margin-top: 7vh;
 `;
@@ -57,9 +58,11 @@ let carouselItems = (projects) => {
     let arr = [];
     for (const key in projects) {
         arr.push(
-            <SlideItem img={projects[key].img}>
-                <a href={projects[key].link}>{projects[key].name}</a>
-            </SlideItem>
+            <a href={projects[key].link}>
+                <SlideItem img={projects[key].img}>
+                    {projects[key].name}
+                </SlideItem>
+            </a>
         )
     }
   return(arr);
